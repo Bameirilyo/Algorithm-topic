@@ -1,7 +1,7 @@
 public class N007 {
 
     public TreeNode reConstructBinaryTree(int[] pre,int [] in) {
-        TreeNode root=reConstructBinaryTree(pre,0,pre.length-1,in,0,in.length-1);
+        TreeNode root = reConstructBinaryTree(pre,0,pre.length-1,in,0,in.length-1);
         return root;
     }
     //前序遍历{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}
@@ -10,7 +10,7 @@ public class N007 {
         if(startPre > endPre || startIn > endIn){
             return null;
         }
-        TreeNode root=new TreeNode(pre[startPre]);
+        TreeNode root = new TreeNode(pre[startPre]);
 
         for(int i = startIn; i <= endIn;i++)
             if(in[i] == pre[startPre]){

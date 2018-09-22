@@ -21,7 +21,7 @@ public class Solution {
             stack.push(head);
             head = head.next;
         }
-        ArrayList<Integer> list=new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<Integer>();
         while (!stack.isEmpty()){
             list.add(stack.pop().val);
         }
