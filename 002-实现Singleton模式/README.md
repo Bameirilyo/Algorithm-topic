@@ -1,5 +1,6 @@
 # 实现Singleton模式
 
+##双重校验锁
 ```Java
 public class Singleton {
      /**
@@ -21,6 +22,7 @@ public class Singleton {
  }
 ```
 
+##饿汉式
 ```Java
 /**
  * 饿汉式
@@ -41,6 +43,7 @@ class Singleton01{
 }
 ```
 
+##懒汉式
 ```Java
 /**
  * 懒汉式，线程安全
