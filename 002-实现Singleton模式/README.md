@@ -1,22 +1,27 @@
-public class Singleton {
-    /**
-     * 双重校验锁
-     * 采用双锁机制，安全、且在多线程环境下能保持高性能
-     */
-    private volatile static Singleton singleton;
-    private Singleton(){}
-    public static Singleton getSingleton(){
-        if (singleton == null){
-            synchronized (Singleton.class){
-                if (singleton == null){
-                    singleton = new Singleton();
-                }
-            }
-        }
-        return singleton;
-    }
-}
+# 实现Singleton模式
 
+```Java
+public class Singleton {
+     /**
+      * 双重校验锁
+      * 采用双锁机制，安全、且在多线程环境下能保持高性能
+      */
+     private volatile static Singleton singleton;
+     private Singleton(){}
+     public static Singleton getSingleton(){
+         if (singleton == null){
+             synchronized (Singleton.class){
+                 if (singleton == null){
+                     singleton = new Singleton();
+                 }
+             }
+         }
+         return singleton;
+     }
+ }
+```
+
+```
 /**
  * 饿汉式
  *
@@ -34,7 +39,9 @@ class Singleton01{
         return instance;
     }
 }
+```
 
+```
 /**
  * 懒汉式，线程安全
  *
@@ -51,3 +58,4 @@ class Singleton02 {
         return instance;
     }
 }
+```
