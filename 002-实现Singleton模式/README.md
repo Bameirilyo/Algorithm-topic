@@ -21,7 +21,7 @@ public class Singleton {
  }
 ```
 
-```
+```Java
 /**
  * 饿汉式
  *
@@ -41,7 +41,7 @@ class Singleton01{
 }
 ```
 
-```
+```Java
 /**
  * 懒汉式，线程安全
  *
