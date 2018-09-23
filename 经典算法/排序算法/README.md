@@ -2,10 +2,14 @@
 
 **内排序有可以分为以下几类：**
 
-(1)、插入排序：直接插入排序、二分法插入排序、希尔排序。 
+(1)、插入排序：直接插入排序、二分法插入排序、希尔排序。
+ 
 (2)、选择排序：简单选择排序、堆排序。 
+
 (3)、交换排序：冒泡排序、快速排序。 
+
 (4)、归并排序 
+
 (5)、基数排序
 
 |   排序方法   |       平均情况       |       最好情况       |       最坏情况       |      空间复杂度      | 稳定性 |
@@ -28,7 +32,8 @@
 
 ## 冒泡排序
 
-**基本思想：**比较数组相邻的两个值，把大的像泡泡一样“冒”到数组后面去，一共要执行N的平方除以2这么多次的比较和交换的操作（N为数组元素），其复杂度为Ο(n²)。
+**基本思想：**
+比较数组相邻的两个值，把大的像泡泡一样“冒”到数组后面去，一共要执行N的平方除以2这么多次的比较和交换的操作（N为数组元素），其复杂度为Ο(n²)。
 
 ```java
 public static void bubbleSort(int[] arr){
@@ -69,7 +74,8 @@ public static void selectsort(int[] arr){
 
 ## 插入排序
 
-**基本思想：**每步将一个待排序的记录，按其顺序码大小插入到前面已经排序的字序列的合适位置（从后向前找到合适位置后），直到全部插入排序完为止。 
+**基本思想：**
+每步将一个待排序的记录，按其顺序码大小插入到前面已经排序的字序列的合适位置（从后向前找到合适位置后），直到全部插入排序完为止。 
 
 ```java
 public static void insertSort(int[] a) {
@@ -87,7 +93,8 @@ public static void insertSort(int[] a) {
 
 ## shell排序
 
-**基本思想：**本质是插入排序，通过将数组数组的方式来将增加排序的速度，分组的方式第一次将数组的长度/2,第二次/4,当结果等于1的时候，那么将这个数组进行插入排序就完成了排序，当然分组时也是需要排序的。
+**基本思想：**
+本质是插入排序，通过将数组数组的方式来将增加排序的速度，分组的方式第一次将数组的长度/2,第二次/4,当结果等于1的时候，那么将这个数组进行插入排序就完成了排序，当然分组时也是需要排序的。
 
 ```java
 public static void shellSort(int[] a) {  
@@ -136,12 +143,16 @@ public static void shellSort(int[] a) {
 ```
 ## 归并排序
 
-**（1）稳定性：**归并排序是一种稳定的排序。
-**（2）存储结构要求：**可用顺序存储结构。也易于在链表上实现。
-**（3）时间复杂度：**对长度为n的文件，需进行趟二路归并，每趟归并的时间为O(n)，故其时间复杂度无论是在最好情况下还是在最坏情况下均是O(nlgn)。
-**（4）空间复杂度：**需要一个辅助向量来暂存两有序子文件归并的结果，故其辅助空间复杂度为O(n)，显然它不是就地排序。
+（1）稳定性：归并排序是一种稳定的排序。
 
-**注意：**若用单链表做存储结构，很容易给出就地的归并排序
+（2）存储结构要求：可用顺序存储结构。也易于在链表上实现。
+
+（3）时间复杂度：对长度为n的文件，需进行趟二路归并，每趟归并的时间为O(n)，故其时间复杂度无论是在最好情况下还是在最坏情况下均是O(nlgn)。
+
+（4）空间复杂度：需要一个辅助向量来暂存两有序子文件归并的结果，故其辅助空间复杂度为O(n)，显然它不是就地排序。
+
+**注意：**
+若用单链表做存储结构，很容易给出就地的归并排序
 
 ```java
 public static int[] sort(int[] a,int low,int high){
@@ -188,58 +199,39 @@ public static int[] sort(int[] a,int low,int high){
 ## 堆排序
 
 ```java
-import java.util.Arrays;
+    public static void heapSort(int[] arr) {
+        MeakHeap(arr, arr.length);
+        for (int i = arr.length - 1; i >= 0; i--){
+            swap(arr, 0 , i);
+            Adjust(arr, 0 , i);
+        }
+    }
+    public static void MeakHeap(int[] arr , int n){
+        for (int i = n / 2 - 1; i >= 0; i--){
+            Adjust(arr , i , n);
+        }
+    }
 
-public class HeapSort {
-    public static void main(String[] args) {
-        int[] a={49,38,65,97,76,13,27,49,78,34,12,64};
-        int arrayLength=a.length;
-        //循环建堆
-        for(int i=0;i<arrayLength-1;i++){
-            //建堆
-            buildMaxHeap(a,arrayLength-1-i);
-            //交换堆顶和最后一个元素
-            swap(a,0,arrayLength-1-i);
-            System.out.println(Arrays.toString(a));
-        }
-    }
-    //对data数组从0到lastIndex建大顶堆
-    public static void buildMaxHeap(int[] data, int lastIndex){
-        //从lastIndex处节点（最后一个节点）的父节点开始
-        for(int i=(lastIndex-1)/2;i>=0;i--){
-            //k保存正在判断的节点
-            int k=i;
-            //如果当前k节点的子节点存在
-            while(k*2+1<=lastIndex){
-                //k节点的左子节点的索引
-                int biggerIndex=2*k+1;
-                //如果biggerIndex小于lastIndex，即biggerIndex+1代表的k节点的右子节点存在
-                if(biggerIndex<lastIndex){
-                    //若果右子节点的值较大
-                    if(data[biggerIndex]<data[biggerIndex+1]){
-                        //biggerIndex总是记录较大子节点的索引
-                        biggerIndex++;
-                    }
-                }
-                //如果k节点的值小于其较大的子节点的值
-                if(data[k]<data[biggerIndex]){
-                    //交换他们
-                    swap(data,k,biggerIndex);
-     //将biggerIndex赋予k，开始while循环的下一次循环，重新保证k节点的值大于其左右子节点的值
-                    k=biggerIndex;
-                }else{
-                    break;
-                }
+    public static void Adjust(int[] arr , int i ,int n){
+        int j = 2 * i + 1;
+        while ( j < n){
+            if (j + 1 < n && arr[j] > arr[j + 1]){
+                j++;
             }
+            if ( arr[i] < arr[j]){
+                break;
+            }
+            i = j;
+            j = 2 * i + 1;
         }
     }
+            
     //交换
-    private static void swap(int[] data, int i, int j) {
-        int tmp=data[i];
-        data[i]=data[j];
-        data[j]=tmp;
+    private static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
-}
 ```
 
 
