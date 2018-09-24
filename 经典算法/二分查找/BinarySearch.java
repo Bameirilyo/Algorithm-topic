@@ -1,5 +1,3 @@
-package 二分查找;
-
 public class BinarySearch {
     //二分查找（折半查找），
     public int BinarySearch1(int[] arr, int target) {
