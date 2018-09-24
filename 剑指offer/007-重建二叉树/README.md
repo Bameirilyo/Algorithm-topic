@@ -9,7 +9,7 @@
 把四个数组找出来，分左右递归调用即可。
 
 ```Java
-public class N007 {
+public class N008 {
 
     public TreeNode reConstructBinaryTree(int[] pre,int [] in) {
         TreeNode root = reConstructBinaryTree(pre,0,pre.length-1,in,0,in.length-1);
