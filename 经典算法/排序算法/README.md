@@ -78,15 +78,15 @@ public static void selectsort(int[] arr){
 每步将一个待排序的记录，按其顺序码大小插入到前面已经排序的字序列的合适位置（从后向前找到合适位置后），直到全部插入排序完为止。 
 
 ```java
-public static void insertSort(int[] a) {
-    for(int i = 1; i < a.length; i++) {// 从数组的第二个元素开始循环将数组中的元素插入
-        int temp = a[i];// 设置数组中的第2个元素为第一次循环要插入的数据
+public static void insertSort(int[] 二进制中1的个数) {
+    for(int i = 1; i < 二进制中1的个数.length; i++) {// 从数组的第二个元素开始循环将数组中的元素插入
+        int temp = 二进制中1的个数[i];// 设置数组中的第2个元素为第一次循环要插入的数据
         int j = i - 1;
-        while (j >= 0 && temp < a[j]) {
-               a[j + 1] = a[j];// 如果要插入的元素小于第j个元素,就将第j个元素向后移动
+        while (j >= 0 && temp < 二进制中1的个数[j]) {
+               二进制中1的个数[j + 1] = 二进制中1的个数[j];// 如果要插入的元素小于第j个元素,就将第j个元素向后移动
                j--;
         }
-        a[j + 1] = temp;// 直到要插入的元素不小于第j个元素,将temp插入到数组中
+        二进制中1的个数[j + 1] = temp;// 直到要插入的元素不小于第j个元素,将temp插入到数组中
     }
 }
 ```
@@ -97,18 +97,18 @@ public static void insertSort(int[] a) {
 本质是插入排序，通过将数组数组的方式来将增加排序的速度，分组的方式第一次将数组的长度/2,第二次/4,当结果等于1的时候，那么将这个数组进行插入排序就完成了排序，当然分组时也是需要排序的。
 
 ```java
-public static void shellSort(int[] a) {  
+public static void shellSort(int[] 二进制中1的个数) {  
     // 将数组分组  
-    for (int temp = a.length / 2; temp >= 1; temp /= 2) {  
+    for (int temp = 二进制中1的个数.length / 2; temp >= 1; temp /= 2) {  
         // 这里的思路和插入排序的思路相同，通过找到前一个的数大于或者小于来进行插入  
-        for(int i = temp; i < a.length; i += temp) {  
-            int temp = a[i];  
+        for(int i = temp; i < 二进制中1的个数.length; i += temp) {  
+            int temp = 二进制中1的个数[i];  
             int j = i - temp;  
-            while(j >= 0 && temp < a[j]) {  
-                a[j + temp] = a[j];  
+            while(j >= 0 && temp < 二进制中1的个数[j]) {  
+                二进制中1的个数[j + temp] = 二进制中1的个数[j];  
                 j -= temp;  
             }  
-            a[j + temp] = temp; 
+            二进制中1的个数[j + temp] = temp; 
         }  
     }  
  }  
@@ -155,41 +155,41 @@ public static void shellSort(int[] a) {
 若用单链表做存储结构，很容易给出就地的归并排序
 
 ```java
-public static int[] sort(int[] a,int low,int high){
+public static int[] sort(int[] 二进制中1的个数,int low,int high){
         int mid = (low+high)/2;
         if(low<high){
-            sort(a,low,mid);
-            sort(a,mid+1,high);
+            sort(二进制中1的个数,low,mid);
+            sort(二进制中1的个数,mid+1,high);
             //左右归并
-            merge(a,low,mid,high);
+            merge(二进制中1的个数,low,mid,high);
         }
-        return a;
+        return 二进制中1的个数;
     }
      
-    public static void merge(int[] a, int low, int mid, int high) {
+    public static void merge(int[] 二进制中1的个数, int low, int mid, int high) {
         int[] temp = new int[high-low+1];
         int i= low;
         int j = mid+1;
         int k=0;
         // 把较小的数先移到新数组中
         while(i<=mid && j<=high){
-            if(a[i]<a[j]){
-                temp[k++] = a[i++];
+            if(二进制中1的个数[i]<二进制中1的个数[j]){
+                temp[k++] = 二进制中1的个数[i++];
             }else{
-                temp[k++] = a[j++];
+                temp[k++] = 二进制中1的个数[j++];
             }
         }
         // 把左边剩余的数移入数组 
         while(i<=mid){
-            temp[k++] = a[i++];
+            temp[k++] = 二进制中1的个数[i++];
         }
         // 把右边边剩余的数移入数组
         while(j<=high){
-            temp[k++] = a[j++];
+            temp[k++] = 二进制中1的个数[j++];
         }
         // 把新数组中的数覆盖nums数组
         for(int x=0;x<temp.length;x++){
-            a[x+low] = temp[x];
+            二进制中1的个数[x+low] = temp[x];
         }
     }
 ```
