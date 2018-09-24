@@ -13,9 +13,9 @@
 
 [008-二叉树的下一个节点](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/008-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E8%8A%82%E7%82%B9)
 
-[009-用两个栈实现队列]()
+[009-用两个栈实现队列](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/009-%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97)
 
-[010-斐波那契数列]()
+[010-斐波那契数列](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/010-%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97)
 
 [015-二进制中1的个数](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/015-%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0)
 
