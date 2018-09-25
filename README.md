@@ -21,7 +21,7 @@
 
 [015-二进制中1的个数](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/015-%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0)
 
-[018-删除链表中的节点（删除链表中的重复节点）]()
+[018-删除链表中的节点（删除链表中的重复节点）](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/018-%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9%EF%BC%88%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E8%8A%82%E7%82%B9%EF%BC%89)
 
 [022-链表中倒数第k个节点](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/022-%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9)
 
@@ -36,6 +36,8 @@
 [全排列（未完待续）](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E5%85%A8%E6%8E%92%E5%88%97)
 
 [最长回文子串](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2)
+
+[数组循环右移k位]()
 
 [判断一个数是否为2的幂次方](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E6%95%B0%E6%98%AF%E5%90%A6%E4%B8%BA2%E7%9A%84%E5%B9%82%E6%AC%A1%E6%96%B9)
 
