@@ -37,7 +37,7 @@
 
 [最长回文子串](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2)
 
-[数组循环右移k位]()
+[数组循环右移k位](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84%E5%BE%AA%E7%8E%AF%E5%8F%B3%E7%A7%BBk%E4%BD%8D)
 
 [判断一个数是否为2的幂次方](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E6%95%B0%E6%98%AF%E5%90%A6%E4%B8%BA2%E7%9A%84%E5%B9%82%E6%AC%A1%E6%96%B9)
 
