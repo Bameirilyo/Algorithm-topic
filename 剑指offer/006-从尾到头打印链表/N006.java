@@ -39,7 +39,7 @@ public class N006 {
 
 class ListNode{
     int val;
-    ListNode next;
+    ListNode next = null;
     ListNode(){
         this.val = val;
     }
