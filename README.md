@@ -31,6 +31,8 @@
 
 [二分查找](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)
 
+[最长回文子串]()
+
 [判断一个数是否为2的幂次方](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E6%95%B0%E6%98%AF%E5%90%A6%E4%B8%BA2%E7%9A%84%E5%B9%82%E6%AC%A1%E6%96%B9)
 
 
