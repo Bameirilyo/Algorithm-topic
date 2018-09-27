@@ -35,7 +35,7 @@
 
 [026-树的子结构](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/026-%E6%A0%91%E7%9A%84%E5%AD%90%E7%BB%93%E6%9E%84)
 
-[027-二叉树的镜像]()
+[027-二叉树的镜像](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/027-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%95%9C%E5%83%8F)
 
 [030-包含min函数的栈](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/030-%E5%8C%85%E5%90%ABmin%E5%87%BD%E6%95%B0%E7%9A%84%E6%A0%88)
 
