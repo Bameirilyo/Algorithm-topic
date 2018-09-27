@@ -23,9 +23,11 @@
 
 [018-删除链表中的节点（删除链表中的重复节点）](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/018-%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9%EF%BC%88%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E8%8A%82%E7%82%B9%EF%BC%89)
 
-[021-调整数组顺序使奇数位于偶数前面]()
+[021-调整数组顺序使奇数位于偶数前面](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/021-%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2)
 
 [022-链表中倒数第k个节点](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/022-%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9)
+
+[023-链表中环的入口节点]()
 
 [024-反转链表](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/024-%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8)
 
