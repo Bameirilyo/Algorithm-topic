@@ -18,7 +18,7 @@
 
 [010-斐波那契数列(青蛙跳台阶)](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/010-%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97(%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6))
 
-[011-旋转数组的最小数字]()
+[011-旋转数组的最小数字](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/011-%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97)
 
 [012-矩阵中的路径](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/012-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84)
 
@@ -79,4 +79,6 @@
 
 [拼接最小字典序字符串](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E6%8B%BC%E6%8E%A5%E6%9C%80%E5%B0%8F%E5%AD%97%E5%85%B8%E5%BA%8F%E5%AD%97%E7%AC%A6%E4%B8%B2)
 
-[判断字符串A中是否包含B中所有的字符]()
+[判断字符串A中是否包含B中所有的字符](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2A%E4%B8%AD%E6%98%AF%E5%90%A6%E5%8C%85%E5%90%ABB%E4%B8%AD%E6%89%80%E6%9C%89%E7%9A%84%E5%AD%97%E7%AC%A6)
+
+
