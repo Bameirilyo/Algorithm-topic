@@ -1,5 +1,5 @@
 # Algorithm-topic
-## 第一部分：剑指Offer第二版Java实现
+## 第一部分：剑指Offer第二版（Java实现）
 
 
 [002-实现单例模式](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/002-%E5%AE%9E%E7%8E%B0Singleton%E6%A8%A1%E5%BC%8F)
@@ -48,7 +48,7 @@
 
 [042-连续子数组的最大和](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/042-%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C)
 
-## 第二部分：经典算法Java实现
+## 第二部分：经典算法（Java实现）
 [排序算法](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)
 
 [二分查找](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)
@@ -60,3 +60,5 @@
 [数组循环右移k位](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84%E5%BE%AA%E7%8E%AF%E5%8F%B3%E7%A7%BBk%E4%BD%8D)
 
 [判断一个数是否为2的幂次方](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E5%88%A4%E6%96%AD%E4%B8%80%E4%B8%AA%E6%95%B0%E6%98%AF%E5%90%A6%E4%B8%BA2%E7%9A%84%E5%B9%82%E6%AC%A1%E6%96%B9)
+
+[最大不相交区间](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E6%9C%80%E5%A4%A7%E4%B8%8D%E7%9B%B8%E4%BA%A4%E5%8C%BA%E9%97%B4)
