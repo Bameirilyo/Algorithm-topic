@@ -79,3 +79,4 @@
 
 [拼接最小字典序字符串](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E6%8B%BC%E6%8E%A5%E6%9C%80%E5%B0%8F%E5%AD%97%E5%85%B8%E5%BA%8F%E5%AD%97%E7%AC%A6%E4%B8%B2)
 
+[判断字符串A中是否包含B中所有的字符]()
