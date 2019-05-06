@@ -18,7 +18,7 @@
 
 [010-斐波那契数列(青蛙跳台阶)](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/010-%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97(%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6))
 
-[012-矩阵中的路径]()
+[012-矩阵中的路径](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/012-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84)
 
 [014-减绳子](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/014-%E5%87%8F%E7%BB%B3%E5%AD%90)
 
@@ -26,7 +26,7 @@
 
 [018-删除链表中的节点（删除链表中的重复节点）](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/018-%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9%EF%BC%88%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E8%8A%82%E7%82%B9%EF%BC%89)
 
-[019-正则表达式匹配]()
+[019-正则表达式匹配](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/019-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D)
 
 [020-表示数值的字符串](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/020-%E8%A1%A8%E7%A4%BA%E6%95%B0%E5%80%BC%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2)
 
