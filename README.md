@@ -20,7 +20,7 @@
 
 [012-矩阵中的路径](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/012-%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84)
 
-[013-机器人的运动范围]()
+[013-机器人的运动范围](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/013-%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4)
 
 [014-减绳子](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/014-%E5%87%8F%E7%BB%B3%E5%AD%90)
 
@@ -58,7 +58,7 @@
 
 [042-连续子数组的最大和](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/042-%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C)
 
-[058-翻转单词顺序（左旋字符串）]()
+[058-翻转单词顺序（左旋字符串）](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/058-%E7%BF%BB%E8%BD%AC%E5%8D%95%E8%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%88%E5%B7%A6%E6%97%8B%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%89)
 
 ## 第二部分：经典算法（Java实现）
 [排序算法](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)
