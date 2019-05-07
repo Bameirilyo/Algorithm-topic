@@ -83,4 +83,6 @@
 
 [查找数组中未出现的最小正整数](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9C%AA%E5%87%BA%E7%8E%B0%E7%9A%84%E6%9C%80%E5%B0%8F%E6%AD%A3%E6%95%B4%E6%95%B0)
 
-[元素互不相邻的最大和子数组]()
+[元素互不相邻的最大和子数组](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E5%85%83%E7%B4%A0%E4%BA%92%E4%B8%8D%E7%9B%B8%E9%82%BB%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C%E5%AD%90%E6%95%B0%E7%BB%84)
+
+
