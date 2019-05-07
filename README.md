@@ -87,4 +87,5 @@
 
 [钱币拼凑（动态规划问题）](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E9%92%B1%E5%B8%81%E6%8B%BC%E5%87%91%EF%BC%88%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E9%97%AE%E9%A2%98%EF%BC%89)
 
-[解码字符串]()
+[解码字符串](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E8%A7%A3%E7%A0%81%E5%AD%97%E7%AC%A6%E4%B8%B2)
+
