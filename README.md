@@ -81,4 +81,4 @@
 
 [判断字符串A中是否包含B中所有的字符](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2A%E4%B8%AD%E6%98%AF%E5%90%A6%E5%8C%85%E5%90%ABB%E4%B8%AD%E6%89%80%E6%9C%89%E7%9A%84%E5%AD%97%E7%AC%A6)
 
-
+[查找数组中未出现的最小正整数]()
