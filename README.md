@@ -89,3 +89,5 @@
 
 [解码字符串](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95/%E8%A7%A3%E7%A0%81%E5%AD%97%E7%AC%A6%E4%B8%B2)
 
+[若干次操作使三个数变成一样大]()
+
