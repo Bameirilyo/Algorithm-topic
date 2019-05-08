@@ -60,6 +60,8 @@
 
 [042-连续子数组的最大和](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/042-%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C)
 
+[052-两个链表的第一个公共节点]()
+
 [058-翻转单词顺序（左旋字符串）](https://github.com/Bameirilyo/Algorithm-topic/tree/master/%E5%89%91%E6%8C%87offer/058-%E7%BF%BB%E8%BD%AC%E5%8D%95%E8%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%88%E5%B7%A6%E6%97%8B%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%89)
 
 ## 第二部分：经典算法（Java实现）
